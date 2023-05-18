@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: OSC-VFX
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":174.143,"y":-33.25116},"zoom":1.0,"elements":[{"defaultValues":{"duration":{"$content":5.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-199.0,"y":-117.0},"guid":"c0e5969b-eeb8-42c9-8112-bd38faccb91a","$version":"A","$type":"Unity.VisualScripting.Timer","$id":"9"},{"chainable":false,"member":{"name":"SetFloat","parameterTypes":["System.String","System.Single"],"targetType":"UnityEngine.VFX.VisualEffect","targetTypeName":"UnityEngine.VFX.VisualEffect","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"test","$type":"System.String"},"%f":{"$content":0.0,"$type":"System.Single"}},"position":{"x":118.0,"y":-109.0},"guid":"c912c1fa-b898-4c1e-b0bd-98353886af25","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"completed","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"3a6ba5e5-5d22-4831-aa9f-d3f0060f1cf6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"elapsedRatio","destinationUnit":{"$ref":"11"},"destinationKey":"%f","guid":"bd68bd1c-0197-41dc-b739-e8cc6415dcfb","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
