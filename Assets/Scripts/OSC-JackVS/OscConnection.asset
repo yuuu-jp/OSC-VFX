@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: OscConnection
   m_EditorClassIdentifier: 
   type: 0
-  host: 192.168.0.12
+  host: 192.168.0.10
   port: 9002
