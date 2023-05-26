@@ -1,7 +1,7 @@
 # テーマ
 - OSCを使ってスクリプトのサンプルを用意する
 
-- Unity 2021.3.13f(Unity2021.3.20以降とはPackagemanagerで互換がない)
+- Unity 2022.2.20f(Unity2021.3.20以前とはPackagemanagerで互換がない)
 
 ## シーン解説
 ### OSCJackVS
